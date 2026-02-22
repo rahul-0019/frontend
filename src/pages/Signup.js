@@ -20,7 +20,8 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const res = await axios.post(
+        //  const res = 
+        await axios.post(
         " https://backend-1elt.onrender.com/api/register",
         form
       );
